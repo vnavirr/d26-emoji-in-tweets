@@ -5,4 +5,3 @@ The purpose of the California Location Risk Identifier System is to evaluate env
 The following datasets were used for this application:
 - https://www.kaggle.com/datasets/vijayveersingh/the-california-wildfire-data
 - https://www.kaggle.com/datasets/janus137/six-decades-of-california-earthquakes/data
-- https://www.melissa.com/education
