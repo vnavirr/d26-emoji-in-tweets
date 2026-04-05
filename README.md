@@ -1,5 +1,5 @@
 # Emoji Prediction from Tweet Text
-Datathon project — predicting which emoji a tweet was originally posted with, using classical NLP and machine learning classifiers.
+Datathon project, predicting which emoji a tweet was originally posted with, using classical NLP and machine learning classifiers.
 
 # Overview
 Given a tweet with its emoji removed, can a model predict which emoji the author used? This project explores that question by training and comparing three classical machine learning classifiers on a labeled dataset of over 225,000 tweets across 10 emoji classes.
@@ -26,13 +26,13 @@ The preprocessed split is saved as data_split.pkl and loaded by each notebook, s
 
 # The Models
 
-**Model 1 - Logistic Regression**
+**Model 1 - Logistic Regression**  
 Logistic Regression is the most interpretable of the three models. It learns a weight for every word in the TF-IDF vocabulary and uses those weights to assign a probability to each emoji class, predicting the class with the highest probability.
 
-**Model 2 - Naive Bayes**
+**Model 2 - Naive Bayes**  
 Naive Bayes is a probabilistic classifier rooted in Bayes' theorem. Given that this tweet contains these words, the theorem asks what the probability it belongs to each emoji class is. The "naive" assumption is that each word contributes to the prediction independently of the others. While this simplification does not hold in reality, it worked surprisingly well in practice for text.
 
-**Model 3 - Linear SVC**
+**Model 3 - Linear SVC**  
 Support Vector Machines find the decision boundary that maximises the margin between classes. The Linear SVC variant is optimised for high-dimensional sparse data, exactly the kind that TF-IDF produces, and is typically the strongest performer on text classification tasks.
 
 # How to Run
