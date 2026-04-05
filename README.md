@@ -54,9 +54,11 @@ Each notebook is fully self-contained and runs on Google Colab with no local ins
 # Classification Reports
 
 Naive Bayes:
+
 <img width="668" height="442" alt="image" src="https://github.com/user-attachments/assets/0abd21c1-9e00-446b-8dbf-813760b564d1" />
 
 Linear SVC:
+
 <img width="956" height="596" alt="image" src="https://github.com/user-attachments/assets/1917b8ac-0f63-46b0-a940-8225baff1e71" />
 
 
