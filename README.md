@@ -18,9 +18,9 @@ The task is a multi-class text classification problem: given the text of a tweet
 # Our Approach: Shared preprocessing
 All three models share the same preprocessing pipeline and train/test split, ensuring fair comparison. The shared steps are:
 
-Clean tweets — lowercase, strip URLs, mentions, punctuation
-TF-IDF vectorization — convert tweet text into numerical feature vectors using term frequency–inverse document frequency
-Train/test split — 80% training (180,264 tweets), 20% test (45,067 tweets)
+1. Clean tweets: lowercase, strip URLs, mentions, punctuation
+2. TF-IDF vectorization — convert tweet text into numerical feature vectors using term frequency–inverse document frequency
+3. Train/test split — 80% training (180,264 tweets), 20% test (45,067 tweets)
  
 The preprocessed split is saved as data_split.pkl and loaded by each notebook, so every model trains and evaluates on identical data.
 
