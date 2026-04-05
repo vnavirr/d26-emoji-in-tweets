@@ -12,8 +12,7 @@ The dataset consists of two files:
 1. tweets.txt — one tweet per line, with the emoji stripped out  
 2. emoji.txt — the name of the emoji that appeared in the corresponding tweet
 
-The 10 emoji classes are: blush, flushed, grin, heart_eyes, relaxed, smirk, sob, weary, wink, yum
-The task is a multi-class text classification problem: given the text of a tweet, predict which of the 10 emoji it originally contained.
+The 10 emoji classes are: `blush`, `flushed`, `grin`, `heart_eyes`, `relaxed`, `smirk`, `sob`, `weary`, `wink`, `yum`.The task is a multi-class text classification problem: given the text of a tweet, predict which of the 10 emoji it originally contained.
 
 # Our Approach: Shared preprocessing
 All three models share the same preprocessing pipeline and train/test split, ensuring fair comparison. The shared steps are:
