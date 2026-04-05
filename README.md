@@ -9,8 +9,8 @@ Each model is implemented as a self-contained Google Colab notebook that anyone 
 # The Problem
 The dataset consists of two files:
 
-tweets.txt — one tweet per line, with the emoji stripped out
-emoji.txt — the name of the emoji that appeared in the corresponding tweet
+1. tweets.txt — one tweet per line, with the emoji stripped out  
+2. emoji.txt — the name of the emoji that appeared in the corresponding tweet
 
 The 10 emoji classes are: blush, flushed, grin, heart_eyes, relaxed, smirk, sob, weary, wink, yum
 The task is a multi-class text classification problem: given the text of a tweet, predict which of the 10 emoji it originally contained.
