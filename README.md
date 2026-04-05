@@ -47,7 +47,7 @@ Each notebook is fully self-contained and runs on Google Colab with no local ins
 
 | **Model**            | **Accuracy** |
 | :------------------: | :----------: |
-| Logistic Regression  | 0.46         | 
+| Logistic Regression  | 0.52         | 
 | Naive Bayes          | 0.51         |
 | Linear SVC           | 0.44         |
 
@@ -56,10 +56,10 @@ Each notebook is fully self-contained and runs on Google Colab with no local ins
 Logistic Inference:  
 <img width="575" height="356" alt="image" src="https://github.com/user-attachments/assets/b2787b7b-7d66-4c2e-b023-a9bb0bea4a13" />
 
-Naive Bayes:
+Naive Bayes:  
 <img width="668" height="442" alt="image" src="https://github.com/user-attachments/assets/0abd21c1-9e00-446b-8dbf-813760b564d1" />
 
-Linear SVC:
+Linear SVC:  
 <img width="956" height="596" alt="image" src="https://github.com/user-attachments/assets/1917b8ac-0f63-46b0-a940-8225baff1e71" />
 
 
