@@ -26,13 +26,13 @@ The preprocessed split is saved as data_split.pkl and loaded by each notebook, s
 
 # The Models
 
-_Model 1 - Logistic Regression_
+**Model 1 - Logistic Regression**
 Logistic Regression is the most interpretable of the three models. It learns a weight for every word in the TF-IDF vocabulary and uses those weights to assign a probability to each emoji class, predicting the class with the highest probability.
 
-_Model 2 - Naive Bayes_
+**Model 2 - Naive Bayes**
 Naive Bayes is a probabilistic classifier rooted in Bayes' theorem. Given that this tweet contains these words, the theorem asks what the probability it belongs to each emoji class is. The "naive" assumption is that each word contributes to the prediction independently of the others. While this simplification does not hold in reality, it worked surprisingly well in practice for text.
 
-_Model 3 - Linear SVC_
+**Model 3 - Linear SVC**
 Support Vector Machines find the decision boundary that maximises the margin between classes. The Linear SVC variant is optimised for high-dimensional sparse data, exactly the kind that TF-IDF produces, and is typically the strongest performer on text classification tasks.
 
 # How to Run
@@ -45,8 +45,6 @@ Each notebook is fully self-contained and runs on Google Colab with no local ins
 6. Run all cells from top to bottom. Each notebook will train the model, evaluate it, and produce the classification report, bar chart, and confusion matrix.
 
 # Results Summary
-
-_Model 1 - Logistic Regression_
 
 | **Model**            | **Accurary** |
 | :------------------: | :----------: |
