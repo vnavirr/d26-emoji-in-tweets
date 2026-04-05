@@ -48,7 +48,7 @@ Each notebook is fully self-contained and runs on Google Colab with no local ins
 | **Model**            | **Accurary** |
 | :------------------: | :----------: |
 | Logistic Regression  | 0.46         | 
-| Naive Bayes          | 0.00         |
+| Naive Bayes          | 0.51         |
 | Linear SVC           | 0.00         |
 
 # Key Findings 
