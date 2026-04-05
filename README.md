@@ -45,11 +45,16 @@ Each notebook is fully self-contained and runs on Google Colab with no local ins
 
 # Results Summary
 
-| **Model**            | **Accurary** |
+| **Model**            | **Accuracy** |
 | :------------------: | :----------: |
 | Logistic Regression  | 0.46         | 
 | Naive Bayes          | 0.51         |
 | Linear SVC           | 0.44         |
+
+# Classification Reports
+
+<img width="668" height="442" alt="image" src="https://github.com/user-attachments/assets/0abd21c1-9e00-446b-8dbf-813760b564d1" />
+
 
 # Key Findings 
 The models excell at predicting emotionally distinct emojis, like `heart_eyes` and `sob`. Tweets containing these emoji tend to use strong, unambiguous language, such as "I'm obsessed" or "I'm literally crying", that TF-IDF can reliably detect. Our model struggled with emojis that have similar emotional tones to one another. The `sob` and `weary` tends to be the largest source of confusion since both appear in distress-related tweets and their surrounding text is nearly identical. Similarly, `wink` and `smirk` are hard to distinguish because both appear in playful, ironic contexts.
